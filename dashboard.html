@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forever Us Dashboard ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Welcome to Forever Us 💕</h1>
+    
+    <div class="memory-form">
+      <input type="text" id="title" placeholder="Memory Title" required>
+      <textarea id="description" placeholder="Write your memory here..." required></textarea>
+      <input type="file" id="image">
+      <button id="add-memory-btn">Add Memory</button>
+    </div>
+
+    <h2>Your Memories</h2>
+    <div id="memories-list"></div>
+
+    <button id="logout-btn">Logout</button>
+  </div>
+
+  <script type="module" src="dashboard.js"></script>
+</body>
+</html>
